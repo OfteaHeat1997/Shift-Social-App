@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "520338240107",
+    "project_id": "swift-d03e5",
+    "storage_bucket": "swift-d03e5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520338240107:android:6ad3ff562b218162c8372e",
+        "android_client_info": {
+          "package_name": "com.example.shift_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXrtb-LFfvEpjcIgsO4hxi0rBlVmb0pSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

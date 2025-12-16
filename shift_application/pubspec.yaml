@@ -1,0 +1,59 @@
+name: shift_application
+description: "A new Flutter project."
+publish_to: 'none' # Prevents accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  # dart:js_interop (PromiseJsImpl) needs Dart ≥3.1
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase core & auth must be in sync:
+  firebase_core: ^3.14.0
+  firebase_auth: ^5.6.0
+  cloud_firestore: ^5.6.9
+  shared_preferences: ^2.2.2
+  js: ^0.6.5
+
+  # UI & utilities
+  cupertino_icons: ^1.0.8
+  pie_chart: ^5.3.2
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.1
+  geolocator: ^14.0.1
+
+  # Optional: Google Sign-In
+  google_sign_in: ^6.3.0
+  
+  # Audio & Media
+  just_audio: ^0.10.4
+  permission_handler: ^12.0.0+1
+  emoji_picker_flutter: ^4.3.0
+  audio_waveforms: ^1.0.4
+  sensors_plus: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Custom fonts
+  fonts:
+    - family: SpaceGrotesk
+      fonts:
+        - asset: assets/fonts/SpaceGrotesk-Medium.ttf
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/ManRope-regular.ttf
+
+  # Assets
+  assets:
+    - assets/images/
+    - assets/icons/

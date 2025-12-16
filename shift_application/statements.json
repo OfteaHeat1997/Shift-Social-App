@@ -1,0 +1,74 @@
+[
+  {
+    "__id__": "0JDUdSRdvSW572D2SE4c",
+    "agreeColor": "#F19EC0",
+    "disagreeColor": "#A4A9B6",
+    "neutralColor": "#F7EA7E",
+    "name": "s2",
+    "text": "Can a real connection happen without words?"
+  },
+  {
+    "__id__": "1xUJUqFACn4pm1IDJOHt",
+    "agreeColor": "#51D6F1",
+    "disagreeColor": "#9095A1",
+    "neutralColor": "#7C5DFD",
+    "name": "s7",
+    "text": "Can design change society more than laws do?"
+  },
+  {
+    "__id__": "2PU3Tsv9uRnT9cTYHtBF",
+    "agreeColor": "#4CF0B0",
+    "disagreeColor": "#F24D37",
+    "neutralColor": "#D9A77B",
+    "name": "s5",
+    "text": "Would you feel comfortable letting AI make work decisions?"
+  },
+  {
+    "__id__": "9It7B7KSV60dGjTQnbc3",
+    "agreeColor": "#F19EC0",
+    "disagreeColor": "#A4A9B6",
+    "neutralColor": "#F7EA7E",
+    "name": "s6",
+    "text": "Can smart tech actually help us grow as humans?"
+  },
+  {
+    "__id__": "Hj3IYVSuilqXOQO5RRVh",
+    "agreeColor": "#51D6F1",
+    "disagreeColor": "#9095A1",
+    "neutralColor": "#7C5DFD",
+    "name": "s8",
+    "text": "Are we using design to give people freedom—or to control them?"
+  },
+  {
+    "__id__": "LbGBf07ZhaxusmON8L5E",
+    "agreeColor": "#4CF0B0",
+    "disagreeColor": "#F24D37",
+    "neutralColor": "#D9A77B",
+    "name": "s1",
+    "text": "Is music a stronger way to connect than talking?"
+  },
+  {
+    "__id__": "dLJuClbSqH1kvbsDKtO8",
+    "agreeColor": "#F19EC0",
+    "disagreeColor": "#A4A9B6",
+    "neutralColor": "#F7EA7E",
+    "name": "s4",
+    "text": "Tech connects us instantly, but does it bring us closer?"
+  },
+  {
+    "__id__": "keVXSnP4YxIfF3rsCzuy",
+    "agreeColor": "#51D6F1",
+    "disagreeColor": "#9095A1",
+    "neutralColor": "#7C5DFD",
+    "name": "s3",
+    "text": "How does the crowd’s vibe shape your mood?"
+  },
+  {
+    "__id__": "vMCLbkhTWzHGizxzK1FJ",
+    "agreeColor": "#4CF0B0",
+    "disagreeColor": "#F24D37",
+    "neutralColor": "#D9A77B",
+    "name": "s9",
+    "text": "Is great design about answers or better questions?"
+  }
+]

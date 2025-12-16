@@ -1,0 +1,4 @@
+$(window).on("load resize", function () {
+  const cw = $('.fhictCard').width();
+  $('.fhictCard').css({ height: `${cw}px` });
+});

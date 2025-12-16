@@ -1,0 +1,170 @@
+img[alt^="banner"]{
+  width: 100%;
+  height: 155px;
+  object-fit: cover!important;
+
+}
+
+
+img[alt^="avatar"]{
+  width: 140px;;
+  height: 140px;
+  object-fit: cover!important;
+  overflow: hidden;
+
+}
+
+
+.center-md {
+  align-items: center;
+  justify-content: center;
+}
+
+/* 5 columns */
+
+.col-2dot4,
+.col-sm-2dot4,
+.col-md-2dot4,
+.col-lg-2dot4,
+.col-xl-2dot4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+@media (min-width: 540px) {
+    .col-sm-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 720px) {
+    .col-md-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 960px) {
+    .col-lg-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 1340px) {
+    .col-xl-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+.fhictCard:hover .fhictCardTitle {
+  background-color: #ff4bb5 !important;
+  transition: All 0.2s;
+  -webkit-transition: All 0.2s;
+}
+
+.fhictCardLink, .fhictCard > .inline_disabled {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.fhictCard img{
+  object-fit: cover;
+  object-position: center;
+}
+
+.fhictHeader {
+  box-sizing: border-box;
+  height: 154px;
+}
+
+.fhictHeader img {
+  object-fit: cover;
+  object-position: center;
+  max-width: none !important;
+}
+
+.fhictHeaderContent {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.fhictHeader h5{
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.fhictHeader span{
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.fhictCardTitle{
+  box-sizing: border-box;
+  bottom: 0;
+  text-align: left;
+  transition: All 0.2s;
+  -webkit-transition: All 0.2s;
+}
+
+.fhictButtonWrapper {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.fhictHomeButton{
+  text-decoration: none !important;
+  transition: All 0.2s;
+  -webkit-transition: All 0.2s;
+}
+
+.fhictHomeButton:hover{
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none !important;
+  background-color: #ff4bb5 !important;
+  transition: All 0.2s;
+  -webkit-transition: All 0.2s;
+}
+
+/* Video Embed */
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
